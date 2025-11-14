@@ -1,0 +1,12 @@
+hey here you tell the whole behind the scene data of git 
+
+1. commit obj  => tree obj  => blob obj 
+
+to see the hash-codes 
+run : git log --oneline
+
+to see what you do in specific commit 
+run : git show -s --pretty =raw hash-code
+
+for tree info
+run: git ls tree tree-code
