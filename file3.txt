@@ -5,8 +5,17 @@ hey here you tell the whole behind the scene data of git
 to see the hash-codes 
 run : git log --oneline
 
-to see what you do in specific commit 
-run : git show -s --pretty =raw hash-code
+(2b0c3a4")
 
+to see what you do in specific commit 
+run :       git show -s --pretty =raw hash-code 
+
+("commit:   2b0c3a4e43df545f31b087fbaad0c5cf6d90b4fa
+tree:       4c8c5ab5625eacd99c4a93ae5f806f1e6c8dc743
+author:     Iqra haji <iqrahaji3946@gmail.com> 1763113797 +0500
+committer:  Iqra haji <iqrahaji3946@gmail.com> 1763113797 +0500 ")
+ 
 for tree info
 run: git ls tree tree-code
+
+("100644 blob d1344297b44013022cfbaf21ca4ac8c86abde03d    file3.txt")
